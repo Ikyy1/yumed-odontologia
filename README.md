@@ -21,6 +21,7 @@ Também é possível baixar todo o repositório em **Code → Download ZIP**.
 - `.openai/hosting.json`: identificação e hospedagem do site original no Sites.
 - `docs/HISTORICO-DO-PROJETO.md`: histórico das decisões e alterações.
 - `docs/licencas/`: licenças das fontes locais.
+- `docs/COMO-RENOMEAR.md`: como mudar o nome do repositório, da pasta e da clínica depois.
 
 ## Executar com servidor local
 
