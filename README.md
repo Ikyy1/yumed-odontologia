@@ -2,7 +2,7 @@
 
 Cópia completa e editável da versão aprovada, com layout responsivo, quatro seções, menu em cápsula, comparações interativas e mapa ilustrativo.
 
-[Ver o site](https://yumed-odontologia-care.smart-siren-9704.chatgpt.site)
+[Ver o site com atualizações automáticas](https://ikyy1.github.io/yumed-odontologia/)
 
 ## Salvar no notebook
 
@@ -50,7 +50,7 @@ As imagens e a localização são ilustrativas. O agendamento organiza uma prév
 
 Antes de usar para atendimento real, substitua nome, endereço, contatos e equipe pelos dados confirmados do cliente e conecte o agendamento. O arquivo HTML contém a marcação de demonstração e a diretiva `noindex`.
 
-O acesso ao site publicado no Sites é configurado separadamente da privacidade deste repositório. Este repositório foi mantido público por escolha do proprietário. A publicação automática será feita pelo GitHub Pages depois de ativar **Settings → Pages → Deploy from a branch → main → /(root)**. Consulte `docs/PUBLICACAO-AUTOMATICA.md`.
+O acesso ao site publicado no Sites é configurado separadamente da privacidade deste repositório. Este repositório foi mantido público por escolha do proprietário. A publicação automática pelo GitHub Pages está ativa em **https://ikyy1.github.io/yumed-odontologia/**, usando **main → /(root)**. Cada commit enviado à `main` gera uma nova publicação; a conclusão pode levar alguns minutos. Consulte `docs/PUBLICACAO-AUTOMATICA.md`.
 
 ## Origem da cópia
 

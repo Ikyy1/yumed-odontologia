@@ -1,14 +1,12 @@
-# Ativar atualizações automáticas
+# Atualizações automáticas ativas
 
-A integração usada nesta conversa consegue enviar o código, mas o GitHub recusou a ativação do Pages por API. Esta configuração precisa ser feita uma vez pelo dono do repositório.
+O GitHub Pages já está ativado e publica a branch **main**, pasta **/(root)**.
 
-1. Abra https://github.com/Ikyy1/yumed-odontologia/settings/pages
-2. Em **Build and deployment**, escolha **Source: Deploy from a branch**.
-3. Escolha a branch **main** e a pasta **/(root)**.
-4. Clique em **Save** e aguarde a publicação.
-5. Use o endereço exibido pelo próprio GitHub Pages para apresentar o site aos clientes.
+**Site:** https://ikyy1.github.io/yumed-odontologia/
 
-Depois dessa ativação, qualquer commit enviado à `main` atualiza o site automaticamente, após a conclusão da publicação. Não precisa subir os arquivos manualmente a cada alteração.
+Cada commit enviado à `main` gera uma nova publicação. Aguarde a conclusão do processo no menu **Actions** do repositório; isso pode levar alguns minutos. Salvar arquivos somente no notebook atualiza a prévia local, mas a atualização online depende de commit e push.
+
+Se a configuração precisar ser refeita, abra https://github.com/Ikyy1/yumed-odontologia/settings/pages e selecione **Deploy from a branch → main → /(root)**.
 
 ## Trabalhar com o Claude Code
 

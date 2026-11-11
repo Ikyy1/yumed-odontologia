@@ -34,8 +34,8 @@ Se houver navegador disponível, confira desktop e celular, especialmente 360, 3
 ## Atualizações online
 
 O repositório é `https://github.com/Ikyy1/yumed-odontologia`.
-A publicação automática usa o GitHub Pages com **Deploy from a branch → main → /(root)**. A ativação inicial precisa ser concluída nas configurações do GitHub.
+A publicação automática está ativa em **https://ikyy1.github.io/yumed-odontologia/**, usando o GitHub Pages com **Deploy from a branch → main → /(root)**.
 
-Depois de ativado, cada commit enviado à `main` gera uma nova publicação. Alterar arquivos somente no notebook atualiza a prévia local; para publicar, é necessário commit e push. A publicação pode levar alguns minutos. O endereço do GitHub Pages é separado da publicação anterior no Sites, que não é sincronizada automaticamente por este repositório.
+Cada commit enviado à `main` gera uma nova publicação. Alterar arquivos somente no notebook atualiza a prévia local; para publicar, é necessário commit e push. A publicação pode levar alguns minutos. O endereço do GitHub Pages é separado da publicação anterior no Sites, que não é sincronizada automaticamente por este repositório.
 
 Se forem usadas branches ou pull requests, a versão pública muda após a entrada das alterações na `main`. Não crie outro projeto do Sites para este fluxo.
