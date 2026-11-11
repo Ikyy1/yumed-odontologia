@@ -1,0 +1,7 @@
+Fontes obtidas do Google Fonts, servidas localmente:
+Cormorant Garamond — https://fonts.google.com/specimen/Cormorant+Garamond
+Manrope — https://fonts.google.com/specimen/Manrope
+Licenças e autoria nos repositórios oficiais Google Fonts:
+https://github.com/google/fonts/tree/main/ofl/cormorantgaramond
+https://github.com/google/fonts/tree/main/ofl/manrope
+As famílias utilizam a SIL Open Font License.

@@ -1,0 +1,10 @@
+YU.MED — SITE COMPLETO
+
+1. Mova esta pasta YU.MED para Documentos no seu notebook.
+2. Abra ABRIR-SITE.html para visualizar o site.
+3. Para editar, os arquivos estão dentro de dist.
+4. Preserve a pasta dist/assets: ela contém todas as fotos e fontes.
+
+A demonstração não envia agendamentos. Nome, imagens e localização são ilustrativos.
+O mapa precisa de internet.
+Instruções completas no README.md.
