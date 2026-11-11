@@ -45,7 +45,7 @@ As imagens e a localização são ilustrativas. O agendamento organiza uma prév
 
 Antes de usar para atendimento real, substitua nome, endereço, contatos e equipe pelos dados confirmados do cliente e conecte o agendamento. O arquivo HTML contém a marcação de demonstração e a diretiva `noindex`.
 
-O acesso ao site publicado no Sites é configurado separadamente da privacidade deste repositório. Este repositório é um backup privado do código e não publica um novo site automaticamente.
+O acesso ao site publicado no Sites é configurado separadamente da privacidade deste repositório. Este repositório foi mantido público por escolha do proprietário. Ele é um backup do código e não publica um novo site automaticamente.
 
 ## Origem da cópia
 
