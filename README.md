@@ -6,11 +6,11 @@ Cópia completa e editável da versão aprovada, com layout responsivo, quatro s
 
 ## Salvar no notebook
 
-1. Baixe o arquivo **YU.MED.zip** na área **Releases** deste repositório.
-2. Extraia a pasta **YU.MED** dentro de **Documentos**.
+1. Clique em **Code → Download ZIP** neste repositório para baixar a versão mais recente.
+2. Extraia o ZIP dentro de **Documentos** e renomeie a pasta para **YU.MED**, se desejar.
 3. Abra **ABRIR-SITE.html** para visualizar a cópia local.
 
-Também é possível baixar todo o repositório em **Code → Download ZIP**.
+Para usar o Claude Code, abra a pasta completa e leia `CLAUDE.md`. Para trabalhar com Git e publicar atualizações, prefira clonar o repositório, conforme `docs/PUBLICACAO-AUTOMATICA.md`.
 
 ## Arquivos do projeto
 
@@ -19,11 +19,16 @@ Também é possível baixar todo o repositório em **Code → Download ZIP**.
 - `dist/app.js`: interações, comparações e formulário demonstrativo.
 - `dist/assets/`: fotos, fontes e ícone, incluídos no projeto.
 - `.openai/hosting.json`: identificação e hospedagem do site original no Sites.
+- `CLAUDE.md`: orientações para o Claude Code.
+- `scripts/dev-server.mjs`: servidor de prévia local com recarga ao salvar.
+- `docs/PUBLICACAO-AUTOMATICA.md`: ativação do Pages e fluxo de atualizações.
 - `docs/HISTORICO-DO-PROJETO.md`: histórico das decisões e alterações.
 - `docs/licencas/`: licenças das fontes locais.
 - `docs/COMO-RENOMEAR.md`: como mudar o nome do repositório, da pasta e da clínica depois.
 
 ## Executar com servidor local
+
+Com Node.js 20 ou superior, use `npm run dev` para abrir a prévia com recarga automática ao salvar. Use `npm run check` para verificar a sintaxe. Não há dependências a instalar.
 
 O site não precisa de instalação ou compilação. Para servir por HTTP, na pasta do projeto execute:
 
@@ -45,7 +50,7 @@ As imagens e a localização são ilustrativas. O agendamento organiza uma prév
 
 Antes de usar para atendimento real, substitua nome, endereço, contatos e equipe pelos dados confirmados do cliente e conecte o agendamento. O arquivo HTML contém a marcação de demonstração e a diretiva `noindex`.
 
-O acesso ao site publicado no Sites é configurado separadamente da privacidade deste repositório. Este repositório foi mantido público por escolha do proprietário. Ele é um backup do código e não publica um novo site automaticamente.
+O acesso ao site publicado no Sites é configurado separadamente da privacidade deste repositório. Este repositório foi mantido público por escolha do proprietário. A publicação automática será feita pelo GitHub Pages depois de ativar **Settings → Pages → Deploy from a branch → main → /(root)**. Consulte `docs/PUBLICACAO-AUTOMATICA.md`.
 
 ## Origem da cópia
 
