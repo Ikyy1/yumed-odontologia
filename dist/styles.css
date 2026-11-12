@@ -42,15 +42,22 @@ body.dialog-open{overflow:hidden}dialog{border:1px solid #ffffff88;padding:0;max
   }
 
   .hero {
+    /* Mantém testa e olhos abaixo do cabeçalho no desktop. */
+    --hero-portrait-offset: clamp(80px, 8svh, 96px);
     display: grid;
     grid-template-rows: auto 1fr auto;
     height: auto;
     min-height: max(840px, 100svh);
   }
   .hero-photo {
-    width: 112%;
+    top: var(--hero-portrait-offset);
+    bottom: auto;
+    width: 100%;
+    height: calc(100% - var(--hero-portrait-offset));
     max-width: none;
-    object-position: 50% 48%;
+    object-position: 50% 0%;
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 48px);
+    mask-image: linear-gradient(to bottom, transparent, #000 48px);
   }
   .site-header {
     width: min(1440px, calc(100% - 96px));
